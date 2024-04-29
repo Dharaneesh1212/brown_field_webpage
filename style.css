@@ -361,6 +361,7 @@ li {
   box-shadow: black 0px 1px 5px 0px;
   cursor: pointer;
   background-color: rgb(235, 231, 231);
+  margin: 0.5rem;
 }
 
 .visit:hover {
@@ -454,4 +455,9 @@ li {
 
 .pfour-contact {
   font-size: 18px;
+}
+
+/* Mobile responsive */
+@media (min-width: 375px) and (max-width: 425px){
+
 }
