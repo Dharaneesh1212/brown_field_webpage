@@ -461,11 +461,6 @@ li {
 }
 
 /* Mobile responsive */
-/* @media (min-width: 375px) and (max-width: 425px){
-
-} */
-
-/* Mobile responsive */
 @media (min-width: 375px) and (max-width: 425px) {
   .container,
   .container-two {
@@ -639,7 +634,7 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     width: 20rem;
-    margin: 1rem;
+    margin: 3rem;
   }
 
   .img-one {
@@ -667,6 +662,7 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+    width: 21rem;
   }
 
   .btn-contact {
@@ -683,5 +679,296 @@ li {
   .map-img {
     display: flex;
     width: 18rem;
+  }
+}
+
+/* Tablet responsive */
+@media (min-width: 426px) and (max-width: 768px) {
+  .container,
+  .container-two {
+    width: 80%; /* Adjust width of containers for tablet screens */
+  }
+
+  .nav-content {
+    flex-wrap: wrap; /* Allow navigation buttons to wrap onto multiple lines */
+    justify-content: center; /* Center align navigation buttons */
+  }
+
+  .bf {
+    font-size: 30px; /* Decrease font size of Brown Field heading */
+    margin-bottom: 1rem; /* Add some spacing below the heading */
+  }
+
+  .home,
+  .about,
+  .blog,
+  .gallery,
+  .contact {
+    width: 100%; /* Make navigation buttons full width */
+    margin-bottom: 0.5rem; /* Add some spacing between navigation buttons */
+  }
+
+  .blur-container,
+  .main,
+  .main-contact {
+    padding: 1rem; /* Add padding for main content sections */
+  }
+
+  .head-one,
+  .bft {
+    font-size: 32px; /* Decrease font size of headings */
+  }
+
+  .p-one,
+  .p-two,
+  .p-two-blog,
+  .p-blog,
+  .pone-contact,
+  .ptwo-contact,
+  .pthree-contact,
+  .pfour-contact {
+    font-size: 20px; /* Decrease font size of paragraphs */
+  }
+
+  .img-one-gallery,
+  .map-img {
+    width: 100%; /* Make images full width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0.5rem; /* Add some spacing below images */
+  }
+
+  .final-one,
+  .final-two {
+    flex-direction: column; /* Stack gallery items vertically */
+    align-items: center; /* Center align gallery items */
+    gap: 1rem; /* Add some spacing between gallery items */
+  }
+
+  .sub-one {
+    width: 100%; /* Make gallery items full width */
+  }
+
+  .sub-div {
+    flex-direction: column; /* Stack text and buttons vertically */
+    align-items: center; /* Center align text and buttons */
+    gap: 1rem; /* Add some spacing between text and buttons */
+  }
+
+  .line-blog,
+  .line {
+    width: 30rem; /* Make horizontal lines a fixed width */
+  }
+
+  .input-contact,
+  .text-contact {
+    width: 100%; /* Make input fields and textareas full width */
+  }
+
+  .h-contact,
+  .hone-contact,
+  .htwo-contact,
+  .hthree-contact {
+    font-size: 24px; /* Decrease font size of headings */
+    margin-bottom: 0.5rem; /* Add some spacing below headings */
+  }
+
+  /* index  */
+
+  .img-one {
+    display: flex;
+    width: 28rem;
+    margin: 1rem;
+  }
+
+  .img-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .final-one {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .final-two {
+    display: flex;
+    gap: 3rem;
+  }
+
+  /* about */
+
+  .last-img-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 35rem;
+  }
+
+  .img-two {
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+  }
+
+  /* blog */
+
+  .categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30rem;
+  }
+
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 34rem;
+    margin-bottom: 3rem;
+  }
+
+  .img-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+    height: 23rem;
+  }
+
+  .p-two-blog {
+    width: 32rem;
+  }
+
+  .btn-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    margin-right: 35rem;
+  }
+
+  /* contact  */
+
+  .main-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn-contact {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .content-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+  }
+
+  .content-two-contact {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 18rem;
+  }
+
+  .map-img {
+    display: flex;
+    width: 18rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .blur-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 50rem; */
+  }
+
+  /* blog  */
+
+  .categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .bft {
+    margin-left: 1.5rem;
+  }
+
+  /* gallery */
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .final-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 7rem;
+  }
+
+  .img-one-gallery {
+    width: 12rem;
+  }
+
+  .visit {
+    height: 2rem;
+    width: 5rem;
+  }
+
+  .detail {
+    height: 2rem;
+    width: 5rem;
+  }
+
+  /* contact  */
+
+  .main-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .content-contact {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-left: 1rem;
+  }
+
+  .content-two-contact {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .btn-contact {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .map-img {
+    height: 10rem;
+    width: 15rem;
   }
 }
