@@ -348,6 +348,10 @@ li {
 }
 
 /* gallery */
+.vd {
+  display: flex;
+  gap: 1rem;
+}
 
 .visit {
   height: 2.5rem;
@@ -361,7 +365,6 @@ li {
   box-shadow: black 0px 1px 5px 0px;
   cursor: pointer;
   background-color: rgb(235, 231, 231);
-  margin: 0.5rem;
 }
 
 .visit:hover {
