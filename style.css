@@ -461,6 +461,227 @@ li {
 }
 
 /* Mobile responsive */
-@media (min-width: 375px) and (max-width: 425px){
+/* @media (min-width: 375px) and (max-width: 425px){
 
+} */
+
+/* Mobile responsive */
+@media (min-width: 375px) and (max-width: 425px) {
+  .container,
+  .container-two {
+    width: 90%; /* Adjust width of containers for smaller screens */
+  }
+
+  .nav-content {
+    flex-wrap: wrap; /* Allow navigation buttons to wrap onto multiple lines */
+    justify-content: center; /* Center align navigation buttons */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack navigation buttons vertically */
+    align-items: center; /* Center align navigation items */
+  }
+
+  .bf {
+    font-size: 24px; /* Decrease font size of Brown Field heading */
+    margin-bottom: 1rem; /* Add some spacing below the heading */
+  }
+
+  .home,
+  .about,
+  .blog,
+  .gallery,
+  .contact {
+    width: 100%; /* Make navigation buttons full width */
+    margin-bottom: 0.5rem; /* Add some spacing between navigation buttons */
+  }
+
+  .blur-container,
+  .main,
+  .main-contact {
+    padding: 0.5rem; /* Reduce padding for main content sections */
+  }
+
+  .head-one,
+  .bft {
+    font-size: 28px; /* Decrease font size of headings */
+  }
+
+  .p-one,
+  .p-two,
+  .p-two-blog,
+  .p-blog,
+  .pone-contact,
+  .ptwo-contact,
+  .pthree-contact,
+  .pfour-contact {
+    font-size: 16px; /* Decrease font size of paragraphs */
+  }
+
+  .img-one-gallery,
+  .map-img {
+    width: 100%; /* Make images full width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0.5rem; /* Add some spacing below images */
+  }
+
+  .final-one,
+  .final-two {
+    flex-direction: column; /* Stack gallery items vertically */
+    align-items: center; /* Center align gallery items */
+    gap: 1rem; /* Add some spacing between gallery items */
+  }
+
+  .sub-one {
+    width: 100%; /* Make gallery items full width */
+  }
+
+  .sub-div {
+    flex-direction: column; /* Stack text and buttons vertically */
+    align-items: center; /* Center align text and buttons */
+    gap: 0.5rem; /* Add some spacing between text and buttons */
+  }
+
+  .detail,
+  .visit,
+  .send-contact,
+  .reset-contact {
+    width: 100%; /* Make buttons full width */
+  }
+
+  .line-blog,
+  .line {
+    width: 18rem; /* Make horizontal lines full width */
+  }
+
+  .input-contact,
+  .text-contact {
+    width: 100%; /* Make input fields and textareas full width */
+  }
+
+  .h-contact,
+  .hone-contact,
+  .htwo-contact,
+  .hthree-contact {
+    font-size: 20px; /* Decrease font size of headings */
+    margin-bottom: 0.5rem; /* Add some spacing below headings */
+  }
+
+  /* index */
+
+  .blur-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 21rem;
+  }
+
+  .p-one {
+    width: 18rem;
+  }
+
+  .main {
+    width: 21rem;
+  }
+
+  .img-one {
+    display: flex;
+    width: 18rem;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* about */
+
+  .img-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .line {
+    border-top: 2px dashed rgb(190, 190, 190);
+    margin: 1rem;
+  }
+
+  .last-img-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20rem;
+  }
+
+  .img-two {
+    display: flex;
+    width: 18rem;
+  }
+
+  /* blog */
+
+  .categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20rem;
+  }
+
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20rem;
+    margin: 1rem;
+  }
+
+  .img-one {
+    display: flex;
+    width: 18rem;
+  }
+
+  .p-two-blog {
+    width: 18rem;
+  }
+
+  .btn-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    margin-right: 35rem;
+  }
+
+  /* contact */
+
+  .main-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .btn-contact {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .content-two-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .map-img {
+    display: flex;
+    width: 18rem;
+  }
 }
